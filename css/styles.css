@@ -835,9 +835,6 @@ img {
 }
 
 input[type="email"] {
-    padding: 10px;
-    border: 1px solid #999;
-    font-size: 14px;
     border-radius: 4px;
     width: 264px;
     height: 40px;
