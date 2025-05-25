@@ -596,8 +596,8 @@ img {
 
 
 
-.close-svg:hover,
-.close-svg:focus {
+.close-svg:hover .close-svg,
+.close-svg:focus .close-svg {
     fill: #ffffff;
 }
 
@@ -614,7 +614,7 @@ img {
 }
 
 .modal-form-container {
-    margin-bottom: 8px;
+    margin-bottom: 16pxpx;
 }
 
 .input-wrapper {
@@ -657,11 +657,12 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.name-container:focus-within .icon-name {
-    fill: #4D5AE5; }
+.introduction-colon:focus-within .icon-name {
+    fill: #4D5AE5;
+}
 
 .comment-container {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 
@@ -736,6 +737,7 @@ img {
 
 .privacy-policy {
     color: var(--link-color);
+    text-decoration: underline;
 }
 
 
