@@ -596,8 +596,8 @@ img {
 
 
 
-.close-svg:hover .close-svg,
-.close-svg:focus .close-svg {
+.modal:hover .close-svg,
+.modal:focus .close-svg {
     fill: #ffffff;
 }
 
@@ -662,7 +662,7 @@ img {
 }
 
 .comment-container {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 
@@ -700,7 +700,7 @@ img {
 }
 
 .checkbox-container {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .check-privacy {
